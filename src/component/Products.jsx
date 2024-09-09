@@ -40,7 +40,7 @@ const Products = () => {
     },
   ];
   return (
-    <div className="">
+    <div className="mt-32">
       {data.map((val, idx) => (
         <Product val={val} key={idx} />
       ))}

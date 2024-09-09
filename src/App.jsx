@@ -7,6 +7,9 @@ import Work from "./component/Work";
 import Stripes from "./component/stripes";
 import Products from "./component/Products";
 import Product from "./component/Product";
+import Maruess from "./component/Maruess";
+import Cards from "./component/Cards";
+import Footer from "./component/Footer";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -17,6 +20,9 @@ function App() {
       <Stripes />
       <Products />
       {/* <Product /> */}
+      <Maruess />
+      <Cards />
+      <Footer />
     </div>
   );
 }
